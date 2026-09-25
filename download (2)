@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Entorno virtual
+venv/
+env/
+ENV/
+.venv/
+
+# Variables de entorno
+.env
+
+# Base de datos local
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads reales (mantener solo .gitkeep)
+uploads/*
+!uploads/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log
